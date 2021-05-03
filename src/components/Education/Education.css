@@ -1,0 +1,57 @@
+.education{
+    background-image: url(../../educationbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.education h1{
+    font-size: 50px;
+    overflow: hidden;
+    color: ivory;
+}
+.card{
+    width: 700px;
+    background-color: lightcyan;
+    height: 30%;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+@media (max-width: 980px) {
+    .card{
+        width: 600px
+    }
+}
+@media (max-width: 600px) {
+    .card{
+        width: 500px
+    }
+}
+@media (max-width: 500px) {
+    .card{
+        width: 400px
+    }
+}
+@media (max-width: 400px) {
+    .card{
+        width: 300px
+    }
+}
+.card-item{
+    padding: 10px 0 10px 10px;
+} 
+h2{
+    font-weight: 900;
+}
+h3{
+    font-weight: 700;
+}
+h4{
+    font-weight: 300;
+}
